@@ -33,7 +33,7 @@ public class HelloController implements Initializable {
 
     @FXML
     public void onMenuItemDepartmentAction(){
-        System.out.println("onMenuItemDepartmentAction");
+        loadView("DepartmentList.fxml");
     }
 
     @FXML
